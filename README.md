@@ -8,6 +8,7 @@ Each folder includes:
 - Report
 
 ### Neural Nets
+(This project will be added soon)
 
 ### Hand Gesture - A computer vision and image recognition program
 
