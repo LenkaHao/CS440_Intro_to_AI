@@ -32,63 +32,48 @@ Evaluation metrics:
 
 
 Experiment 1: No hand in the camera
-
-
+![No hand](https://github.com/LenkaHao/CS440_Intro_to_AI/blob/master/Hand%20Gesture/img/nothing.png)
 
 
 Experiment 2: Hand gestures that do not match any template
+![Other gestures](https://github.com/LenkaHao/CS440_Intro_to_AI/blob/master/Hand%20Gesture/img/other.png)
 
 
 
 
-
-Experiment 3: Static hand gesture that matches our template: fighting
+Experiment 3: Static hand gesture that matches our template: fist
+![Fist](https://github.com/LenkaHao/CS440_Intro_to_AI/blob/master/Hand%20Gesture/img/fist.png)
 
 
 
 
 
 Experiment 4: Static hand gesture that matches our template: high five
+![Palm](https://github.com/LenkaHao/CS440_Intro_to_AI/blob/master/Hand%20Gesture/img/highFive.png)
 
 
 
 
 
 Experiment 5: Dynamic hand gesture: waving
+![Waving](https://github.com/LenkaHao/CS440_Intro_to_AI/blob/master/Hand%20Gesture/img/waving.png)
 
 
 
 
 
-Confusion Matrix of "high five" detection
+- Confusion Matrix of "high five" detection
+  - Detection rate: 86.67%
+  - Overall accuracy: 73.33%
 
-Actual
-Predicted		True	False
-True	13	6
-False	2	9
-Detection rate: 86.67%
 
-Overall accuracy: 73.33%
+- Confusion Matrix of "fist" detection
+  - Detection rate: 66.67%
+  - Overall accuracy: 80.00%
 
-Confusion Matrix of "fighting" detection
-
-Actual
-Predicted		True	False
-True	10	1
-False	5	14
-Detection rate: 66.67%
-
-Overall accuracy: 80.00%
-
-Confusion Matrix of "waving" detection
-
-Actual
-Predicted		True	False
-True	15	5
-False	0	10
-Detection rate: 100%
-
-Overall accuracy: 83.33%
+- Confusion Matrix of "waving" detection
+  - Detection rate: 100%
+  - Overall accuracy: 83.33%
 
 ## Discussion and conclusion
 The strengths and weaknesses of our method:
