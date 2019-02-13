@@ -1,0 +1,16 @@
+Build started 2018/4/1 18:12:55.
+     1>Project "C:\Users\Ji\Desktop\ComputerVision\ComputerVision\ComputerVision.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ji\Desktop\ComputerVision\x64\Debug\ComputerVision.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\lib opencv_world310.lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ji\Desktop\ComputerVision\x64\Debug\ComputerVision.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ji\Desktop\ComputerVision\x64\Debug\ComputerVision.lib" /MACHINE:X64 x64\Debug\Source.obj
+         ComputerVision.vcxproj -> C:\Users\Ji\Desktop\ComputerVision\x64\Debug\ComputerVision.exe
+     1>Done Building Project "C:\Users\Ji\Desktop\ComputerVision\ComputerVision\ComputerVision.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.32
