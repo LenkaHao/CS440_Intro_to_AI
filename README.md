@@ -7,6 +7,8 @@ Each folder includes:
 - Code for the project
 - Report
 
+### Neural Nets
+
 ### Hand Gesture - A computer vision and image recognition program
 
 ### Atropos Game Play - A strategic program to play the Atropos game intelligently
