@@ -4,7 +4,6 @@ In this assignment, we are trying to:
 - Understand computer vision.
 - Design and implement algorithms that recognize at least 3 hand shapes or gestures.
 - Create a graphical display that responds to the recognition of the hand shapes or gestures.
-- We believe the program and the results are useful because:
 
 ## Method and Implementation
 - To achieve our goals, we use several computer vision techniques.
